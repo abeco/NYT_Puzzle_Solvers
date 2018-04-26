@@ -1,15 +1,16 @@
 This is a puzzle solver written for the New York Times puzzle called Spelling Bee. This is a description of the game and the solver.
 
 Game(Text straight from NYT): How many common words of 5 or more letters can you spell using the letters in the hive? Every answer must use the center letter at least once. Letters may be reused in a word. At least one word will use all 7 letters. Proper names and hyphenated words are not allowed. Score 1 point for each answer, and 3 points for a word that uses all 7 letters.
-     C
+    
+&nbsp;&nbsp;&nbsp;   C
 
-  R     E
+  R&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;     E
 
-     Y
+&nbsp;&nbsp;&nbsp;   Y
 
-  O     M
+  O  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   M
 
-     N 
+&nbsp;&nbsp;&nbsp;   N 
 
 In this case, Y is the central letter. The 3 point example would be 'ceremony', and a few valid 1 point words would be money, corny, mercy, etc. 
 
