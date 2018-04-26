@@ -4,6 +4,8 @@ Game: The only clues in this crossword are the letter pairs provided in the grid
 
 (See RealPuzzleUnsolved for what the puzzle actually looks like.)
 
+To run, run: python splitmain.py "realpuzzle.txt" or feel free to mark up your own puzzle, put it in the directory, and run it with that one
+
 What I did to solve it was first I marked up the puzzle and gave every clue an ID. (See InkedRealPuzzleUnsolved) Then I entered the clues into a text file in the format ID Clue-Length Block-Start-Index Block-Top-Letter-Pair Block-Bottom-Letter-Pair Connections(with format Connected-Clue-ID Connection-Index). (See RealPuzzle.txt)
 
 Then, once I had a decent way of entering the clues, I split the English language into files based on word length (I know, not a great way to do something but this is the first iteration of this program, so I just needed something that worked) and cycled through the appropriate file for potential solutions, or words with letters in the right places. 
